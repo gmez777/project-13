@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.header-1 {
+  background-image: url(images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 123px;
+}
+
+.header-2 {
+  padding: 0 32px 0 32px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.521739px;
+  color: #4c545c;
+  margin-top: 64px;
+  margin-bottom: 16px;
+  padding: 0 32px 0 32px;
+}
+.paragraph-1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+}
+.paragraph-2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+}
+.paragraph-3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+}
+.paragraph-4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+}
+.button-div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+}
+.ios-button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  border: none;
+  background: #26bba4;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  padding: 13px 50px;
+}
+.mac-button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  border: none;
+  background: #6174ff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  padding: 13px 50px;
+}
+main {
+  padding: 0 32px 0 32px;
+}
+.section-1 {
+  margin-top: 160px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.456522px;
+  color: #4c545c;
+  margin-bottom: 16px;
+}
+.section-2 {
+  margin-top: 65px;
+}
+.comp-img {
+  width: 100%;
+}
+h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.391304px;
+  color: #4c545c;
+  margin-bottom: 10px;
+}
+.three-text {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.text-1 {
+  margin-top: 56px;
+}
+.section-3 {
+  margin-top: 185px;
+}
+.device-img {
+  width: 100%;
+  margin-top: 65px;
+  margin-bottom: 130px;
+}
+.section-4 {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.391304px;
+  color: #4c545c;
+  margin-top: 40px;
+  margin-bottom: 18px;
+}
+.text-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-5 {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+}
+.section-6 {
+  margin-top: 170px;
+}
+footer {
+  margin-top: 170px;
+  background: #9eabb22d;
+  padding: 52px 111px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-mini {
+  width: 55px;
+}
+.infos {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.135px;
+  color: #4c545c;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 48px;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.fb-icon{
+    fill: #4C545C;
+}
+.twitter-icon{
+    fill: #4C545C;
+}
+.instagram-icon{
+    fill: #4C545C;
+}
+@media screen and (min-width: 1440px) {
+  .header-1 {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    font-size: 46px;
+    line-height: 58px;
+    letter-spacing: -0.75px;
+  }
+  .paragraph-1 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+  }
+  .header-2 {
+    padding: 0 355px 0 355px;
+  }
+  .button-div {
+    flex-direction: row;
+    gap: 16px;
+  }
+  main {
+    padding: 0;
+  }
+  h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .paragraph-2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .section-1 {
+    padding: 0 355px;
+  }
+  .section-2 {
+    display: flex;
+    gap: 50px;
+  }
+  .comp-img {
+    width: 50%;
+    transform: translateX(-30px);
+  }
+  .three-text {
+    padding: 0 260px 0 0;
+  }
+  h3 {
+    text-align: start;
+  }
+  .paragraph-3 {
+    line-height: 30px;
+    text-align: start;
+  }
+  .section-3 {
+    padding: 0 330px;
+  }
+  .section-4 {
+    margin-top: 72px;
+    padding: 0 165px;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .paragraph-4 {
+    line-height: 30px;
+  }
+  .section-5 {
+    margin-top: 180px;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+    justify-content: center;
+  }
+  .section-6 {
+    padding: 0 355px;
+  }
+  footer {
+    padding: 45px 165px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .infos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 12px;
+  }
+  .info-p-1 {
+    grid-area: 1/1;
+  }
+  .info-p-2 {
+    grid-area: 2/1;
+  }
+  .info-p-3 {
+    grid-area: 1/2;
+  }
+  .info-p-4 {
+    grid-area: 2/2;
+  }
+  .info-p-5 {
+    grid-area: 1/3;
+  }
+  .ios-button:hover {
+    cursor: pointer;
+    background: #26bba58e;
+  }
+  .mac-button:hover {
+    cursor: pointer;
+    background: #6173ff87;
+  }
+  .info-p-1:hover {
+    cursor: pointer;
+    color: #26bba4;
+  }
+  .info-p-2:hover {
+    cursor: pointer;
+    color: #26bba4;
+  }
+  .info-p-3:hover {
+    cursor: pointer;
+    color: #26bba4;
+  }
+  .info-p-4:hover {
+    cursor: pointer;
+    color: #26bba4;
+  }
+  .info-p-5:hover {
+    cursor: pointer;
+    color: #26bba4;
+  }
+  .fb-icon:hover{
+    cursor: pointer;
+    fill: #26bba4;
+  }
+  .twitter-icon:hover{
+    cursor: pointer;
+    fill: #26bba4;
+  }
+  .instagram-icon:hover{
+    cursor: pointer;
+    fill: #26bba4;
+  }
+
+}
